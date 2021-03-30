@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- <link rel="stylesheet" href="../../node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <script src="../../node_modules/@fortawesome/fontawesome-free/js/all.js"></script> -->
+    <title>Facebook || Web</title>
+</head>
+<body>
+
+    <header id='header'>
+        <div class="center">
+            <div class="logo"><h1>f</h1></div>
+            <div class="desktop_menu">
+                <ul>
+                    <li><img id='upload' src="/images/camera.jpg" alt="camera"></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="load_posts">
+        <div class="center">
+            <div class="posts" id="posts">
+
+            </div><!--posts-->
+        </div><!--center-->
+    </section><!--load_posts-->
+
+    <div class="center">
+        <div id="form_post">
+            <div class='w80'>
+                <input type="text" name="title" id="title" placeholder='Title'>
+            </div>
+            <div class='w10'>
+                <label class='upload_img' for='file'>Upload</label><input type="file" name="file" id="file">
+            </div>
+            <div class="img_show">
+                <p id='txt'>IMG HERE</p>
+                <img id='img' src="#">
+            </div>
+            <div>
+                <button id='btn_post'>Upload</button>
+            </div>
+        </div><!-- form_post -->
+    </div><!-- center -->
+
+<script src="/js/predictPhoto.js"></script>
+<script src="/js/postControl.js"></script>
+<script src="/js/methods.js"></script>
+<script>
+
+ 
+        
+        //implemetar mais tarde o token
+        // if(localStorage.getItem('name') == null){
+        //     let name =  prompt('NAME')
+        //     localStorage.setItem('name',name)
+        // }else{
+            // alert(localStorage.getItem('name'))
+        // }
+</script>
+</body>
+</html>
